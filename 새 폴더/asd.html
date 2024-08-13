@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        section {
+            width: 80%;
+            max-width: 800px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        a.download-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        a.download-link:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>홍길동의 포트폴리오</h1>
+        <p>안녕하세요! 저는 프론트엔드 개발자 홍길동입니다.</p>
+    </header>
+
+    <section>
+        <h2>프로젝트 소개</h2>
+        <video controls>
+            <source src="5640919-hd_1080_1920_30fps.mp4" type="video/mp4">
+            브라우저가 동영상을 지원하지 않습니다.
+        </video>
+        <br>
+        <a href="5640919-hd_1080_1920_30fps.mp4" download class="download-link">동영상 다운로드</a>
+    </section>
+
+    <footer>
+        &copy; 2024 홍길동. All rights reserved.
+    </footer>
+
+</body>
+</html>
